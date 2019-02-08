@@ -1,0 +1,12 @@
+[package]
+name = "adventofcode"
+version = "0.1.0"
+authors = ["Anatolii Lishchynskyi <iamnotacake@github.com>"]
+edition = "2018"
+
+[profile.release]
+incremental = false
+lto = true
+
+[dependencies]
+failure = "0.*"
